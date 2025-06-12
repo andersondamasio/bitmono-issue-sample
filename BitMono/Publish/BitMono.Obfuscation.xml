@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BitMono.Obfuscation</name>
+    </assembly>
+    <members>
+        <member name="M:BitMono.Obfuscation.BitMonoObfuscator.OutputCompatibilityIssues">
+            <summary>
+            Outputs information in case of module is built for .NET Framework,
+            but BitMono is running on .NET Core, or vice versa.
+            See more info: https://bitmono.readthedocs.io/en/latest/obfuscationissues/corlib-not-found.html
+            </summary>
+        </member>
+        <member name="P:BitMono.Obfuscation.Protections.ProtectionsSort.AllProtections">
+            <summary>
+            Gets a collection of <see cref="T:BitMono.API.Protections.IProtection"/>, <see cref="T:BitMono.API.Protections.IPipelineProtection"/>, and <see cref="T:BitMono.API.Protections.IPacker"/>.
+            </summary>
+        </member>
+    </members>
+</doc>

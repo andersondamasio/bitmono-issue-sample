@@ -1,0 +1,13 @@
+﻿{
+  "Protections": [
+    { "Name": "AntiILdasm", "Enabled": true },
+    { "Name": "AntiDe4dot", "Enabled": false },
+    { "Name": "AntiDebugBreakpoints", "Enabled": false },
+    { "Name": "StringsEncryption", "Enabled": false },
+    { "Name": "NoNamespaces", "Enabled": false },
+    { "Name": "FullRenamer", "Enabled": false },
+    { "Name": "ObjectReturnType", "Enabled": false },
+    { "Name": "AntiDecompiler", "Enabled": false },
+    { "Name": "BitMono", "Enabled": false }
+  ]
+}

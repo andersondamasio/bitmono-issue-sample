@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BitMono.Utilities</name>
+    </assembly>
+    <members>
+        <member name="M:BitMono.Utilities.AsmResolver.CloneHelper.CloneSafely(AsmResolver.DotNet.Cloning.MemberCloner,AsmResolver.DotNet.ModuleDefinition,AsmResolver.DotNet.ModuleDefinition)">
+            <summary>
+            Clones via AsmResolver's API,
+            but removes the <see cref="!:cloningModule"/> assembly reference from <see cref="!:sourceModule"/>.
+            This is needed as a workaround, because sometimes AsmResolver adds
+            a reference of the included item to a <see cref="!:sourceModule"/>.
+            See here more details about that problem: https://github.com/sunnamed434/BitMono/issues/207
+            </summary>
+            <param name="cloner">The cloner.</param>
+            <param name="sourceModule">The source module.</param>
+            <param name="cloningModule">The cloning module.</param>
+            <returns>The clone result.</returns>
+        </member>
+        <member name="M:BitMono.Utilities.Runtime.DotNetRuntimeInfoEx.GetFrameworkDescription">
+            <summary>
+            Retrieves the description of the .NET runtime (e.g., ".NET Core 3.1", ".NET 5.0").
+            </summary>
+        </member>
+        <member name="M:BitMono.Utilities.Runtime.DotNetRuntimeInfoEx.GetNetFrameworkVersion">
+            <summary>
+            Try to get the .NET Framework version (only works if running on .NET Framework).
+            </summary>
+        </member>
+        <member name="M:BitMono.Utilities.Runtime.DotNetRuntimeInfoEx.IsNetCoreOrLater">
+            <summary>
+            Checks if Runtime is .NET (Core).
+            </summary>
+        </member>
+        <member name="M:BitMono.Utilities.Runtime.DotNetRuntimeInfoEx.IsNetFramework">
+            <summary>
+            Checks if Runtime is .NET Framework.
+            </summary>
+        </member>
+        <member name="M:BitMono.Utilities.Runtime.DotNetRuntimeInfoEx.IsRunningOnMono">
+            <summary>
+            Checks if the application is running on Mono.
+            </summary>
+        </member>
+        <member name="M:BitMono.Utilities.Runtime.EnvironmentRuntimeInformation.ToString">
+            <summary>
+            Retrieves detailed information about BitMono runtime, like running OS, .NET Framework/.NET Core version, etc.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

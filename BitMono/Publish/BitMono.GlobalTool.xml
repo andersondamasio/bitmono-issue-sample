@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BitMono.GlobalTool</name>
+    </assembly>
+    <members>
+        <member name="T:BitMono.CLI.Modules.ObfuscationNeedsWay">
+            <summary>
+            The way <see cref="T:BitMono.CLI.Modules.ObfuscationNeeds"/> was created.
+            </summary>
+        </member>
+    </members>
+</doc>

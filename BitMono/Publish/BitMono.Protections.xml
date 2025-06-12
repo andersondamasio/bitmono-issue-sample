@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BitMono.Protections</name>
+    </assembly>
+    <members>
+        <member name="M:BitMono.Protections.BitMethodDotnet.GetRandomInstruction">
+            <summary>
+            Get the random instruction that breaks the decompiler method.
+            </summary>
+        </member>
+    </members>
+</doc>
